@@ -1,0 +1,28 @@
+{
+ "name": "tlp4-design-patterns-tp2",
+ "version": "1.0.0",
+ "type": "module",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+   "dev": "node --loader ts-node/esm index.ts",
+   "build": "tsc",
+   "start": "node dist/index.js"
+ },
+ "repository": {
+   "type": "git",
+   "url": "git+https://github.com/GastonFlorenciano/tlp4-design-patterns-tp2.git"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "bugs": {
+   "url": "https://github.com/GastonFlorenciano/tlp4-design-patterns-tp2/issues"
+ },
+ "homepage": "https://github.com/GastonFlorenciano/tlp4-design-patterns-tp2#readme",
+ "devDependencies": {
+   "@types/node": "^24.3.1",
+   "ts-node": "^10.9.2",
+   "typescript": "^5.9.2"
+ }
+}
